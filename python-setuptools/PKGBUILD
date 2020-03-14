@@ -3,7 +3,7 @@
 _realname=setuptools
 pkgbase="python-${_realname}"
 pkgname=("python-${_realname}")
-pkgver=45.2.0
+pkgver=46.0.0
 pkgrel=1
 pkgdesc="Easily download, build, install, upgrade, and uninstall Python packages"
 arch=('any')
@@ -14,7 +14,7 @@ provides=("python3-${_realname}" 'python3-distribute')
 replaces=("python3-${_realname}" 'python3-distribute')
 conflicts=("python3-${_realname}")
 source=("${_realname}-${pkgver}.tar.gz::https://github.com/pypa/setuptools/archive/v${pkgver}.tar.gz")
-sha512sums=('68a2b600e67dfd1ba25efadd852ed99fff3073ee73959b183ffd8b5c44935628a9eff2f56ac921f4d8d903a389f167ddc2295f031b9b0f7fa9f91970516e4658')
+sha512sums=('063283879df82fa739df4f356e174a73ae49209e1c868e02e6fa48bd41d3943d290e5e7347955230ee542b4603fa8a9ce0ed630ec04da4c1fd452faa6d8180dd')
 
 prepare() {
   # Don't download and install deps
