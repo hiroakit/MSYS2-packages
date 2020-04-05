@@ -7,8 +7,8 @@ pkgname=('sqlite' 'libsqlite' 'libsqlite-devel' 'sqlite-doc'
         'sqlite-icu'  'sqlite-extensions')
 _amalgamationver=3300000
 _docver=${_amalgamationver}
-pkgver=3.30.0
-pkgrel=1
+pkgver=3.31.1
+pkgrel=0
 pkgdesc="A C library that implements an SQL database engine"
 arch=('i686' 'x86_64')
 license=(PublicDomain)
