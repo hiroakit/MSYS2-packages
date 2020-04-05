@@ -2,7 +2,7 @@
 
 pkgname=rsync2
 pkgver=3.1.3dev_msys2.7.0_r3
-pkgrel=0
+pkgrel=1
 pkgdesc="A file transfer program to keep remote files in sync"
 arch=('i686' 'x86_64')
 url="https://github.com/jbenden/rsync"
