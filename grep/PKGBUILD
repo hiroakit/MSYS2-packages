@@ -1,8 +1,8 @@
 # Maintainer: Alexey Pavlov <alexpux@gmail.com>
 
 pkgname=grep
-pkgver=3.0
-pkgrel=2
+pkgver=3.4
+pkgrel=0
 pkgdesc="A string search utility"
 arch=('i686' 'x86_64')
 license=('GPL3')
@@ -14,7 +14,7 @@ install=${pkgname}.install
 source=(https://ftp.gnu.org/gnu/${pkgname}/${pkgname}-${pkgver}.tar.xz{,.sig}
         grep-2.23-msys2.patch
         grep-3.0-2.src.patch)
-sha256sums=('e2c81db5056e3e8c5995f0bb5d0d0e1cad1f6f45c3b2fc77b6e81435aed48ab5'
+sha256sums=('58e6751c41a7c25bfc6e9363a41786cff3ba5709cf11d5ad903cf7cce31cc3fb'
             'SKIP'
             '9b9b87f5aa12c49e4e4403d27b85fef3f1de252dfe4eed1a7a4f982ef515a95a'
             '0b2e7e54eb4d5b13257c1b4b43bcb234be02ded8fd04dfbbb73a92346e8b2db2')
